@@ -20,6 +20,7 @@ button {
     height: 35px;
     font-family: Arial, sans-serif;
     font-weight: 600;
+    color: black;
     box-shadow: 5px 5px 5px black;
     border-color: black;
     border-width: 3px;
