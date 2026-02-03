@@ -38,3 +38,29 @@ label {
     border-width: 3px;
     border-color: black;
 }
+
+@media screen and (max-width: 600px) {
+    .container {
+        display: block;
+    }
+
+    button {
+        width: 150px;
+        height: 40px;
+        padding: 0;
+    }
+
+    button, label, #birthdate {
+       position: relative;
+        top: -50px;
+    }
+
+    label {
+        font-size: 20px;
+    }
+
+    #birthdate {
+        width: 100px;
+        height: 10px
+    }
+}
